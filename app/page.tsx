@@ -431,7 +431,7 @@ function Footer() {
               <div className="flex items-start gap-3"><MapPin className="h-4 w-4 text-[#b8973e] flex-shrink-0 mt-0.5" /><span className="text-white/40 text-sm">Rua Conselheiro Justino, 988<br/>Bairro Campestre — Santo André, SP<br/>CEP 09070-580</span></div>
               <div className="flex items-center gap-3"><Phone className="h-4 w-4 text-[#b8973e] flex-shrink-0" /><span className="text-white/40 text-sm">(11) 4421-8233</span></div>
               <div className="flex items-center gap-3"><Clock className="h-4 w-4 text-[#b8973e] flex-shrink-0" /><span className="text-white/40 text-sm">Seg a Sex: 8h às 17h30</span></div>
-              <div className="flex items-center gap-3"><MessageSquare className="h-4 w-4 text-[#b8973e] flex-shrink-0" /><a href="mailto:Contato@contabilmachado.com.br" className="text-white/40 hover:text-[#d4bc7e] text-sm transition-colors">Contato@contabilmachado.com.br</a></div>
+              <div className="flex items-center gap-3"><MessageSquare className="h-4 w-4 text-[#b8973e] flex-shrink-0" /><a href="mailto:Contato@contabilmachado.com.br" className="text-white/40 hover:text-[#d4bc7e] text-sm transition-colors">contato@contabilmachado.com.br</a></div>
             </div>
             <Button onClick={() => window.open(WA_LINK, "_blank")} className="mt-6 bg-[#0c2340] hover:bg-[#1e3f63] text-white font-semibold shadow-lg shadow-[#0c2340]/30 w-full border-0 rounded-lg"><MessageCircle className="mr-2 h-4 w-4" />WhatsApp</Button>
           </div>
